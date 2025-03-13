@@ -49,7 +49,7 @@ class Player(GameSprite):
             new_rect.y += self.speed
 
 
-        def check_collision(self, rect): #function to check if player touches color
+        def check_collision(rect): #function to check if player touches color
             margin = 5  # Adjust margin to reduce space between player and wall
             points = [
                 (rect.left + margin, rect.top + margin),
